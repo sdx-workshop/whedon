@@ -430,7 +430,7 @@ $endif$
   \sffamily\small
 
   $if(arxiv-doi)$
-  {\bfseries Arxiv DOI:} \href{https://doi.org/$formatted_doi$}{\color{linky}{$formatted_doi$}}
+  {\bfseries Arxiv DOI:} \href{https://doi.org/$arxiv-doi$}{\color{linky}{$arxiv-doi$}}
   $endif$
 
   \vspace{2mm}
@@ -444,7 +444,7 @@ $endif$
   Authors of papers retain copyright and release the work under a Creative Commons Attribution 4.0 International License (\href{http://creativecommons.org/licenses/by/4.0/}{\color{linky}{CC BY 4.0}}).
 
   \vspace{4mm}
-  {\bfseries In partnership with ISMIR 2021}\\
+  {\bfseries In partnership with}\\
   \vspace{2mm}
   \includegraphics[width=4cm]{$aas_logo_path$}
 
