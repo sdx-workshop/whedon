@@ -135,7 +135,7 @@ $endif$
 \fancyhead[R]{}
 \renewcommand{\footrulewidth}{0.25pt}
 
-\fancyfoot[L]{\parbox[t]{0.98\headwidth}{\footnotesize{\sffamily $citation_author$, ($year$). $title$. \textit{$journal_name$}, 2021.}}}
+\fancyfoot[L]{\parbox[t]{0.98\headwidth}{\footnotesize{\sffamily $citation_author$. $title$. \textit{$journal_name$}, 2021.}}}
 
 
 \fancyfoot[R]{\sffamily \thepage}
@@ -443,12 +443,10 @@ $endif$
   {\bfseries License}\\
   Authors of papers retain copyright and release the work under a Creative Commons Attribution 4.0 International License (\href{http://creativecommons.org/licenses/by/4.0/}{\color{linky}{CC BY 4.0}}).
 
-  $if(aas-doi)$
   \vspace{4mm}
-  {\bfseries In partnership with}\\
+  {\bfseries In partnership with ISMIR 2021}\\
   \vspace{2mm}
   \includegraphics[width=4cm]{$aas_logo_path$}
-  $endif$
 
   \end{flushleft}
 }
