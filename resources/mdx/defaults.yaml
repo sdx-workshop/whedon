@@ -1,5 +1,5 @@
 template: mdx/latex.template
-csl: /usr/local/share/openjournals/joss/apa.csl
+csl: /usr/local/share/openjournals/mdx/apa.csl
 
 variables:
   joss_resource_url: 'N/A'

@@ -135,7 +135,7 @@ $endif$
 \fancyhead[R]{}
 \renewcommand{\footrulewidth}{0.25pt}
 
-\fancyfoot[L]{\parbox[t]{0.98\headwidth}{\footnotesize{\sffamily $citation_author$. $title$. \textit{$journal_name$}, 2021.}}}
+\fancyfoot[L]{\parbox[t]{0.98\headwidth}{\footnotesize{\sffamily $title$. \textit{$journal_name$}, 2021.}}}
 
 
 \fancyfoot[R]{\sffamily \thepage}

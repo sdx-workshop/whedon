@@ -14,6 +14,7 @@ variables:
   paper_url: 'NO PAPER URL'
 
 metadata:
+  citation_author: '¿citation_author?'
   editor_name: 'Pending Editor'
   issue: ''
   page: ''
