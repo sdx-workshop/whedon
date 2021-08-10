@@ -16,13 +16,13 @@ variables:
 metadata:
   citation_author: '¿citation_author?'
   editor_name: 'Pending Editor'
-  issue: '¿ISSUE?'
-  page: '¿PAGE?'
-  published: 'N/A'
+  issue: ''
+  page: ''
+  published: ''
   reviewers:
-    - 'Pending Reviewers'
-  submitted: 'N/A'
-  volume: '¿VOL?'
+    - ''
+  submitted: ''
+  volume: ''
 
 resource-path: [".", '/usr/local/share/openjournals']
 
