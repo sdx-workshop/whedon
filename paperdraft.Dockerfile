@@ -39,7 +39,7 @@ ARG openjournals_path=/usr/local/share/openjournals
 COPY ./resources $openjournals_path
 COPY ./resources/docker-entrypoint.sh /usr/local/bin/paperdraft
 
-ENV JOURNAL=joss
+ENV JOURNAL=mdx
 ENV OPENJOURNALS_PATH=$openjournals_path
 
 # Input is read from `paper.md` by default, but can be overridden. Output is
