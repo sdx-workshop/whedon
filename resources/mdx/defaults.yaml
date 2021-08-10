@@ -1,0 +1,14 @@
+template: mdx/latex.template
+csl: /usr/local/share/openjournals/joss/apa.csl
+
+variables:
+  joss_resource_url: 'N/A'
+  journal_abbrev_title: 'MDX'
+  journal_alias: 'mdx'
+  journal_issn: ''
+  journal_name: 'Proceedings of the MDX Workshop'
+  journal_url: 'https://mdx-workshop.github.io'
+
+metadata:
+  aas_logo_path: '/usr/local/share/openjournals/mdx/aas-logo.png'
+  logo_path: '/usr/local/share/openjournals/mdx/logo.png'
