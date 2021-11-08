@@ -429,8 +429,12 @@ $endif$
   %\hrule
   \sffamily\small
 
-  $if(arxiv-doi)$
-  {\bfseries Arxiv DOI:} \href{https://doi.org/$arxiv-doi$}{\color{linky}{$arxiv-doi$}}
+  $if(arxiv-url)$
+  {\bfseries Arxiv:} \href{$arxiv-url$}{\color{linky}{$arxiv-url$}}
+  $endif$
+
+  $if(doi)$
+  {\bfseries DOI:} \href{https://doi.org/$doi$}{\color{linky}{$doi$}}
   $endif$
 
   \vspace{2mm}
